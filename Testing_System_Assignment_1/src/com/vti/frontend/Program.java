@@ -219,8 +219,34 @@ public class Program {
                             "ExamID: " + examQuestion1.examId + "\n " +
                             "QuestionID: " + examQuestion1.questionId);
         System.out.println("===============================================================");
-            System.out.println("ExamQuestion: \n" +
-                "ExamID: " + examQuestion1.examId + "\n " +
-                "QuestionID: " + examQuestion1.questionId);
+            System.out.println("Group: \n" +
+                                "GroupID: " + group1.groupId + "\n " +
+                                "GroupName: " + group1.groupName + "\n " +
+                                "CreatorID: " + group1.creatorId + "\n " +
+                                "CreateDate：" + group1.createDate);
+        System.out.println("===============================================================");
+        System.out.println("GroupAccount: \n" +
+                            "GroupId: " + groupAccount1.groupId + "\n " +
+                             "AccountID: " + groupAccount1.accountId + "\n " +
+                             "JoinDate: " + groupAccount1.joinDate);
+        System.out.println("===============================================================");
+        System.out.println("Position: \n" +
+                            "PositionID: " + position1.PositionID + "\n " +
+                            "PositionName: " + position1.PositionName);
+        System.out.println("===============================================================");
+        System.out.println("Question: \n" +
+                            "QuestionID: " + question1.questionId + "\n " +
+                            "Content: " + question1.content + "\n " +
+                            "TypeID: " + question1.typeId + "\n " +
+                            "CreatorID: " + question1.creatorId + "\n " +
+                            "CategoryID: " + question1.categoryId + "\n " +
+                            "CreateDate: " + question1.createDate);
+        System.out.println("===============================================================");
+        System.out.println("TypeQuestion: \n" +
+                            "TypeID: " + typeQuestion1.typeId + "\n " +
+                            "TypeName: " + typeQuestion1.typeName);
+        System.out.println("===============================================================");
+
+
     }
 }
